@@ -532,8 +532,19 @@ S 表如下，`S[1]~S[64]`
 ```bash
 $ g++ main.cpp -o main
 $ ./main
-
+Input Your Message:
+MD5 即 Message-Digest Algorithm 5 (信息-摘要算法 5)
+Your MD5 Digest:
+8a3e1139c206c84dfe8ec03323b8b95
 ```
 
+截图结果：
 
+![2018-12-08-20-32-45-99](assets/2018-12-08-20-32-45-99.png)
+
+与网络上的在线MD5加密工具对比：
+
+![2018-12-08-20-22-25-98](assets/2018-12-08-20-22-25-98.png)
+
+加密结果相同，MD5 算法实现完成！
 
